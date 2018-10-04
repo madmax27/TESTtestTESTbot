@@ -12,3 +12,5 @@ client = commands.Bot(command_prefix="#")
 async def on_ready():
 	await client.change_presence(game=discord.Game(name='Cyberpunk2020'))
 	print ("I am ready")
+
+client.run(BOT_TOKEN)
