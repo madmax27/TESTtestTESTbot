@@ -1,1 +1,1 @@
-worker: node TESTtestTESTbot.js
+worker: python3 TESTtestTESTbot.py
